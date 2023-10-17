@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.header_wrap {
+    display: flex;
+}
+
+.header {
+    background-color: #3F323F;
+    color: white;
+}
+
+.header_img {
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header_title {
+    padding-bottom: 13px;
+}
+
+main {
+    background-color: #E9E9E9;
+    color: #403441;
+}
+
+.objective_heading {
+    padding-bottom: 25px;
+    padding-top: 65px;
+}
+
+.objective_text {
+    padding-bottom: 15px;
+}
+
+/* experience */
+
+.experience_heading {
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.experience_wrapper {
+    display: flex;
+}
+
+.experience_text {
+    padding-right: 122px;
+    padding-bottom: 15px;
+
+}
+
+.experience_text1 {
+    padding-right: 107px;
+    padding-bottom: 15px;
+}
+
+.experience_title {
+    padding-right: 92px;
+}
+
+
+.experience_content {
+    padding-left: 200px;
+    padding-bottom: 35px;
+}
+
+/* skills */
+
+.skills_heading {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+
+/* language */
+
+.language {
+    padding-bottom: 80px;
+}
+
+.language_heading {
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.language_item {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.language_item::before {
+    content: "\25A0";
+    color: #E5D6D2;
+    display: inline-block;
+    width: 1em;
+}
+
+/* form */
+
+.form {
+    background-color: #E5D7D3;
+}
+
+.form_box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form_name_email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.form_heading {
+    display: flex;
+    justify-content: center;
+}
+
+.div_button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form-button {
+    background: #3F313F;
+    color: white;
+    padding: 12px 69px;
+    text-align: center;
+}
+
+.form-input,
+.form-textarea {
+    border: none;
+    border-bottom: 1.25px solid #3F323F;
+    background-color: #E5D7D3;
+    color: #3F313F;
+    width: 200px;
+}
+
+.form-textarea {
+    resize: none;
+    width: 500px;
+}
+
+
+/* footer */
+
+footer {
+    color: white;
+    background-color: #3F323F;
+}
+
+.footer_contacts {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_heading {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.footer_item {
+    list-style-type: none;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.footer-p {
+    color: #7D707D;
+    text-align: center;
+    padding-bottom: 20px;
+}
